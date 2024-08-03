@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- cellspacing  is the space between two cells and cellpadding is the space btw content and border -->
+     <!-- Attribute
+     rowspan
+     colspan
+     cellpadding
+     cellspacing
+     border -->
+
+    <table border="" cellspacing="13px">
+        <thead>
+            <tr>
+                <th>Menu</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Order type</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Biryani</th>
+                <td>1 Plate</td>
+                <td>1000</td>
+                <td>online</td>
+            </tr>
+            <tr>
+                <th>Rajma Chawal</th>
+                <td rowspan="3">2 Plate</td>
+                <td>30</td>
+                <td rowspan="2">offline</td>
+            </tr>
+            <tr>
+                <th>Dal Tadka</th>
+                <!-- <td>1 Plate</td> -->
+                <td rowspan="2">40</td>
+                <!-- <td>offline</td> -->
+            </tr>
+            <tr>
+                <th>Dal Makhni</th>
+                <!-- <td>1 Plate</td> -->
+                <!-- <td>40</td> -->
+                <td>online</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>7 plate</td>
+                <td>1250</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th colspan="4">Ek Khaoge to baar baar aagoe..................!</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
